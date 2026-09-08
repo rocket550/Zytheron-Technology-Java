@@ -70,7 +70,7 @@ public class HologramBlock extends Block{
         return accessible();
     }
 
-    public class HologramMessageBuild extends Building implements LReadable, LPrintable{
+    public class HologramMessageBuild extends Building implements LReadable{
         public StringBuilder message = new StringBuilder();
 
         @Override
@@ -177,17 +177,6 @@ public class HologramBlock extends Block{
         public void read(LVar position, LVar output){
             int address = position.numi();
             output.setnum(address < 0 || address >= message.length() ? Double.NaN : message.charAt(address));
-        }
-
-        @Override
-        public boolean printable(LExecutor exec) {
-            return isValid() && (exec.privileged || (team == exec.team && !privileged));
-        }
-
-        @Override
-        public void print(StringBuilder text) {
-            message.setLength(0);
-            message.append(text, 0, Math.min(text.length(), maxTextLength));
         }
 
         @Override
