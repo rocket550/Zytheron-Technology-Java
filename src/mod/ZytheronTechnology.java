@@ -19,8 +19,8 @@ public class ZytheronTechnology extends Mod{
     Events.on(ClientLoadEvent.class, e -> {
             Time.runTask(30f, () -> {
                 BaseDialog dialog = new BaseDialog("Hello message");
-                dialog.cont.add("Welcome to Zytheron").row();
-                dialog.cont.image(Core.atlas.find("zytheron-icon")).pad(60f).row();
+                dialog.cont.add("Welcome to").row();
+                dialog.cont.image(Core.atlas.find("zytheron-logo")).pad(60f).row();
                 dialog.cont.button("Close", dialog::hide).size(150f,75f);
                 dialog.show();
             });

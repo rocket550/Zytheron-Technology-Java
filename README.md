@@ -1,4 +1,4 @@
-<img src="github/images/img.png" alt="Zytheron Banner" width="900">
+<img src="assets/sprites/logo.png" alt="Zytheron Banner" width="900">
 
 
 ## Title???

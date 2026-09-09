@@ -195,7 +195,7 @@ public class HologramBlock extends Block{
 
         @Override
         public boolean canPickup(){
-            return false;
+            return true;
         }
 
         @Override
