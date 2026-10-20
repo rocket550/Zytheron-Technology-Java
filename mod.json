@@ -1,9 +1,9 @@
 {
 "name":"zytheron",
 "displayName":"Zytheron Technology(Java)",
-"author":"[red]Trocket",
+"author":"[[]red]Trocket",
 "hidden":false,
-"description":"This is a java edition of my mod that will eventually replace the json one \n\nHere you have a list of colors to use because why not?\n[red]red\n[green]green\n[blue]blue\n[yellow]yellow\n[orange]orange\n[white]white\n[gray]gray\n[darkgray]darkgray\n[black]black",
+"description":"This is a java edition of my mod that will eventually replace the json one \n\nHere you have a list of colors to use because why not?\n[[]red]red\n[[]green]green\n[[]blue]blue\n[[]yellow]yellow\n[[]orange]orange\n[[]white]white\n[[]gray]gray\n[[]darkgray]darkgray\n[[]black]black",
 "subtitle":"Play Silivirium too",
 "minGameVersion":157.4,
 "main":"mod.ZytheronTechnology",
