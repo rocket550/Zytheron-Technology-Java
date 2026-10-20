@@ -211,7 +211,7 @@ public class ZytheronBlocks {
             lightLiquid = ZytheronLiquids.rocketfuel;
 
             //consumePower(1f);
-            consumeLiquid(Liquids.oil, 9f / 60f);
+            consumeLiquid(Liquids.water, 9f / 60f);
             consumeItem(ZytheronItems.ignition,1);
             outputLiquid = new LiquidStack(ZytheronLiquids.rocketfuel, 9f / 60f);
             //outputItem = new ItemStack(ZytheronItems.red, 1);
